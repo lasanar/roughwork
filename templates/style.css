@@ -1,0 +1,66 @@
+/* Body Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;  /* Remove default body margin for better centering */
+  min-height: 100vh;  /* Set minimum height to fill the viewport */
+  background: linear-gradient(to right, #f2f2f2, #e0e0e0);  /* Subtle horizontal gradient */
+  display: flex;  /* Use flexbox for centered layout */
+  justify-content: center;  /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;  /* Add some space below the heading */
+  color: #333;
+}
+
+/* Form Styles */
+form {
+  background-color: #fff;  /* White background for the form */
+  padding: 2rem;
+  border-radius: 5px;  /* Rounded corners for the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+/* Label Styles */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="number"] {
+  width: 100%;  /* Full width for input fields */
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Button Styles */
+button[type="submit"] {
+  background-color: #4CAF50;  /* Green color for the button */
+  color: white;
+  padding: 1rem 2rem;  /* Adjust padding for larger button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;  /* Smooth hover effect */
+}
+
+/* Button Hover Effect */
+button[type="submit"]:hover {
+  background-color: #3e8e41;  /* Darker green on hover */
+}
+
+/* Message Styles */
+p.message {
+  color: #333;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;  /* Center the message text */
+}
